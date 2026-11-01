@@ -37,3 +37,14 @@ p {
   font-size: 24px;
   line-height: 2;
 }
+
+
+.btn.btn-primary {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  background-color: #272142;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
