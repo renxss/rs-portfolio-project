@@ -166,6 +166,17 @@ p {
   padding: 120px 60px;
 }
 
+@media (max-width: 991px) {
+  .navbar .nav-link {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .about-section {
+    text-align: center;
+  }
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -183,5 +194,50 @@ p {
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .hero {
+    padding: 60px 15px;
+  }
+
+  .hero p {
+    font-size: 28px;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+  }
+
+  .about-section h1 {
+    font-size: 40px;
+    line-height: 1.4;
+  }
+
+  .about-section-content {
+    margin: 15px;
+  }
+
+  .about-img {
+    padding: 15px;
+  }
+
+  .btn.btn-primary,
+  .btn-branding-outline {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+
+  .footer-email {
+    font-size: 16px;
   }
 }
