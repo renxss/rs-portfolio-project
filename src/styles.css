@@ -52,6 +52,20 @@ p {
   line-height: 2;
 }
 
+.about-section h1{
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: var(--default-font-family)
+}
+
+
+
+
 
 .btn.btn-primary {
   font-family: "Poppins", sans-serif;
